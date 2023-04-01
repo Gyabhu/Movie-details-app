@@ -6,11 +6,11 @@ from passCreator import ask_pwd
 
 
 def ask():
-    selected = input("Welcome to Gab's Fort, Choose C/R/U/D/E/P: ")
+    selected = input("Welcome to Movie Details App, Choose C/R/U/D/E/P: ")
     selected.lower()
 
     def continue_or_not(c):
-        ask() if c else print("May the fort be with you! Bye.")
+        ask() if c else print("May the force be with you! Bye.")
 
     if selected == 'c':
         cont = create()
@@ -39,7 +39,7 @@ def ask():
         return continue_or_not(cont)
 
     elif selected == 'e':
-        print("May the fort be with you! Bye.")
+        print("May the force be with you! Bye.")
 
     else:
         print("Choose the correct keyword!")

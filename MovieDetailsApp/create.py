@@ -1,5 +1,4 @@
-
-from authorized import authorized
+from authroized import authorized
 from connection import est_conn
 
 @authorized
