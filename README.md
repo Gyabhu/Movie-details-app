@@ -3,7 +3,9 @@
 **This is a simple movie details app created using Python.**
 
 ## Instructions
-* **Please run tables.py and passCreator.py only once before executing the main file "CRUDE.py"**
+* **Please run tables.py only once before executing the main file "CRUDE.py"**
+
+* Press 'p' to set password before creating new details.
 
 * Please make changes in connection.py file your database credentials as needed.
 
