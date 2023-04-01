@@ -7,7 +7,7 @@
 
 * Press 'p' to set password before creating new details.
 
-* Please make changes in connection.py file your database credentials as needed.
+* Please make changes in connection.py file to match your database credentials.
 
 * Install pyscopg2 for Database connection.
 ```bash
